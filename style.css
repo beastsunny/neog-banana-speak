@@ -11,7 +11,7 @@
     width: 80%;
     height: 10vh;
     display: block;
-    margin-left: 4rem;
+    margin-left: 5rem;
     padding: 1rem 1rem;
     background-color: white;
 }
@@ -41,6 +41,14 @@ body {
     width: 8%;
     cursor: pointer;
     border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn-switch {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
 }
 
 #otp-heading {
