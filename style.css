@@ -1,0 +1,39 @@
+#txt-input {
+    width: 80%;
+    height: 4rem;
+    display: block;
+    margin-left: 4rem;
+    padding: 2rem 2rem;
+}
+
+#output {
+    border: 1px solid black;
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin-left: 4rem;
+    padding: 1rem 1rem;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    background-color: green;
+    border: solid black;
+}
+
+body {
+    background-color: yellow;
+}
+
+#btn-translate {
+    width: 8%;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+#otp-heading {
+    text-align: center;
+    font-weight: 500;
+    font-size: x-large;
+}
