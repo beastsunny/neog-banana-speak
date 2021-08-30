@@ -19,7 +19,18 @@
 h1 {
     text-align: center;
     background-color: green;
-    border: solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: black;
+    border-radius: 0rem 0rem 2rem 2rem;
+    font-weight: bolder;
+    margin-top: 0%;
+}
+
+hr {
+    color: green;
 }
 
 body {
