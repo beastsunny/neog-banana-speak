@@ -33,6 +33,29 @@ hr {
 
 body {
     background-color: yellow;
+    width: 100%;
+    height: 100vh;
+}
+
+#x {
+    display: flex;
+}
+
+#lbd {
+    display: flex;
+    width: 25%;
+    margin-top: 7%;
+}
+
+#lbd img {
+    width: 90%;
+}
+
+#abc {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-top: 6%;
 }
 
 #btn-translate {
