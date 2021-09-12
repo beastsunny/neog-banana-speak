@@ -60,9 +60,13 @@ body {
     border-radius: 1rem;
     margin-left: auto;
     margin-right: auto;
-    color: white;
+    color: gray;
     font-size: large;
     background-color: rgb(241, 241, 81);
+}
+
+#btn-translate:hover {
+    color: white;
 }
 
 #btn-switch {
@@ -75,4 +79,40 @@ body {
     text-align: center;
     font-weight: 500;
     font-size: x-large;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: rgb(241, 241, 81);
+    width: 100%;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.footer-header {
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+ul {
+    padding-top: 1rem;
+    margin: 0.4rem;
+    padding-inline-start: 0px;
+}
+
+li {
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+a {
+    color: gray;
+    font-size: 1.5rem;
+    margin: 0.3rem;
+}
+
+a:hover {
+    color: white;
 }
